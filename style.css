@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    background-color: #D9EFED;
+    font-family: 'Roboto', sans-serif;
+}
+
+#survey-form {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#name, #email, #age {
+    width: 90%;
+    padding: 10px 20px;
+    margin: 10px 0;
+}
+
+#header {
+    background-image: linear-gradient(#1d5e58, #009688);
+    width: 99%;
+    padding: 5px;
+    height: 150px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    z-index: 1;
+    box-sizing: border-box;
+}
+
+#main {
+    background-color: white;
+    width: 50%;
+    margin: 0 auto;
+    padding: 30px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 3;
+}
+
+#title {
+    background-color: white;
+    text-align: center;
+    height: 100px;
+    width: 50%;
+    margin: 0 auto;
+    padding: 5px;
+    box-sizing: border-box;
+    z-index: 2;
+    margin-top: -5%;
+}
+
+#description {
+    background-color: white;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 4;
+}
+
+#submit {
+    background-color: #009688;
+    padding: 15px;
+    width: 50%;
+    color: white;
+    font-size: 13pt;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#button-submit {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#notes {
+    width: 60%;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+    font-size: 16px;
+}
+
+#dropdown {
+    padding: 8px;
+    font-size: 12pt;
+}

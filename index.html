@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Survey Form</title>
+        <link href="style.css" type="text/css" rel="stylesheet">
+    </head>
+<body>
+    <div id="header">
+  
+    </div>
+    <div id="title">
+        <h1>Formulário de Pesquisa</h1>
+    </div>
+    <div id="description">Queremos saber como podemos melhorar o freeCodeCamp</div>
+    <div id="main">
+        <form id="survey-form">
+            <label for="name" id="name-label">Name: </label>
+            <input id="name" type="text" placeholder="Digite o seu nome..." required>
+
+            <label for="email" id="email-label">Email: </label>
+            <input id="email" type="email" placeholder="Digite o seu email..." required>
+
+            <label for="age" id="age-label">Idade: </label>
+            <input id="age" type="number"  placeholder="Digite a sua idade..." required>
+
+            <p>Qual opção descreve melhor sua função atual?</p>
+            <select id="dropdown">
+                <option>Estudante</option>
+                <option>Trabalha em tempo integral</option>
+                <option>Estuda em tempo integral</option>
+                <option>Prefere não informar</option>
+                <option>Outro</option>
+            </select>
+            <p>Qual a probabilidade de você recomendar freeCodeCamp a um amigo?</p>
+            <label><input type="radio" name="recomendacao" checked>
+            Sim</label>
+
+            <label><input type="radio" name="recomendacao">
+            Talvez</label>
+
+            <label><input type="radio" name="recomendacao">
+            Não tenho certeza</label>
+            <p>Coisas que devem ser melhoradas no futuro (Marque todos que se aplicam):</p>
+            
+            <div>
+            <label><input type="checkbox" value="front-end">
+            Projetos Front-end</label>
+            </div>
+            
+            <div>
+            <label><input type="checkbox" value="back-end">
+            Projetos Back-end</label>
+            </div>
+            
+            <div>
+            <label><input type="checkbox" value="visualizacao-dados">
+            Visualização de dados</label>
+            </div>
+            
+            <div> 
+            <label><input type="checkbox" value="desafios">
+            Desafios</label>
+            </div>
+            
+            <div>
+            <label><input type="checkbox" value="comunidade">
+            Comunidade Open Source</label>
+            </div>
+            
+            <div>
+            <label><input type="checkbox" value="videos">
+            Vídeos</label>
+            </div>
+
+            <div>
+            <label><input type="checkbox" value="meetups">
+            Meetups</label>
+            </div>
+
+            <div>
+            <label><input type="checkbox" value="forum">
+            Fórum</label>
+            </div>
+
+            <div>
+            <label><input type="checkbox" value="cursos">
+            Cursos adicionais</label>
+            </div><br>
+            <div>
+            <label for="notes">Comentário ou sugestão:</label>
+            </div>
+            <textarea id="notes" name="notes" rows="5" cols="33"></textarea>
+
+            <div id="button-submit">
+                <input type="submit" id="submit" value="Enviar">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
